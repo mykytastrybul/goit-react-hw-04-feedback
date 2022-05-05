@@ -3,10 +3,10 @@ import s from './Section.module.css';
 
 export default function Section({ title, children }) {
     return (
-        <div className={s.Section}>
+        <section className={s.Section}>
             <h2>{title}</h2>
             <div>{children}</div>
-        </div>
+        </section>
     )
 }
 
